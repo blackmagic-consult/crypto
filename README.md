@@ -8,9 +8,7 @@ The traditional method of generating a product code is taking the users email, a
 
 However, we need a way to generate the codes with the same amount of randomness WITHOUT requiring user input, since the cards will be printed beforehand. This is actually fairly tricky without maintaining a database of valid codes, which we don't want to do because it would be reasonably expensive to securely maintain.
 
-The following code snippet demonstrates a quasi-functional solution.
-
-[https://gist.github.com/blackmagic-consult/f3d2980dda8ec8c73141b06ada4d91dd](https://gist.github.com/blackmagic-consult/f3d2980dda8ec8c73141b06ada4d91dd)
+This Repository demonstrates a quasi-functional solution.
 
 Problems arise; The hash generation is simply not random enough.
 
